@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>complete_login_form</display-name>
+ 	
+<servlet>
+  <servlet-name>servlet</servlet-name>
+  <servlet-class>complete_login_form.servlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>servlet</servlet-name>
+  <url-pattern>/letsgo</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>readServlet</servlet-name>
+  <servlet-class>complete_login_form.readServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>readServlet</servlet-name>
+  <url-pattern>/readServlet</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+  <servlet-name>deleteServlet</servlet-name>
+  <servlet-class>complete_login_form.deleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>deleteServlet</servlet-name>
+  <url-pattern>/deleteServlet</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+  <servlet-name>editServlet</servlet-name>
+  <servlet-class>complete_login_form.editServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>editServlet</servlet-name>
+  <url-pattern>/editServlet</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+  <servlet-name>editSErvlet2</servlet-name>
+  <servlet-class>complete_login_form.editSErvlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>editSErvlet2</servlet-name>
+  <url-pattern>/editSErvlet2</url-pattern>
+</servlet-mapping>
+
+</web-app>
