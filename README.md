@@ -1,3 +1,3 @@
 # Registration_application_System
 <br>
-Full Stack Project
+Java Full Stack Project
